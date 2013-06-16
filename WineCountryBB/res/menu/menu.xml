@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item android:title="@string/list_all" android:id="@+id/MenuListAll" android:icon="@drawable/ic_menu_sort_by_size" android:visible="false"></item><item android:id="@+id/MenuEvents" android:title="@string/wine_events" android:icon="@drawable/ic_menu_myplaces"></item>
+<item android:id="@+id/MenuTasting" android:title="@string/menu_txt_tasting" android:icon="@drawable/ic_menu_star"></item>
+<item android:id="@+id/MenuFriend" android:title="@string/menu_txt_friend" android:icon="@drawable/ic_menu_allfriends"></item>
+<item android:id="@+id/MenuContact" android:icon="@drawable/ic_menu_send" android:title="@string/menu_txt_contact"></item>
+<item android:id="@+id/MenuApps" android:title="@string/menu_txt_apps" android:icon="@drawable/ic_menu_archive" android:visible="false"></item>
+</menu>

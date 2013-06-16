@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/winery" >
+
+<TextView 
+	android:text="@string/wine_country" 
+	android:id="@+id/TxtWineCountry" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:paddingLeft="40dp"
+	android:paddingTop="7dp"
+	android:textSize="100sp"
+	android:textColor="@color/title"
+	android:textStyle="bold"
+	android:background="@color/opaqueLight"></TextView>
+<TextView 
+	android:text="@string/state" 
+	android:id="@+id/TxtState" 
+	android:layout_below="@id/TxtWineCountry" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:paddingLeft="83dp"
+	android:textSize="35sp"
+	android:textColor="@color/color_white"
+	android:background="@color/opaqueLight"
+	android:visibility="gone">
+</TextView>
+
+<TableLayout 
+	android:id="@+id/TableLayout01" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_alignParentBottom="true"
+	android:layout_below="@id/TxtState"
+	android:layout_marginTop="5dp"
+	android:layout_marginRight="3dp"
+	android:stretchColumns="0,1,2">
+		<TableRow 
+			android:id="@+id/TableRow01" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content">
+				<Button 
+					android:text="@string/region" 
+					android:textColor="@color/color_gold"
+					android:textSize="30dp"
+					android:id="@+id/BtnRegion" 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content" 
+					android:background="@drawable/button_state"
+					android:padding="8dp"
+					android:layout_margin="5dp"></Button>
+				<Button 
+					android:text="@string/list_all" 
+					android:textColor="@color/color_gold"
+					android:textSize="30dp"
+					android:id="@+id/BtnMap" 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:background="@drawable/button_state"
+					android:padding="8dp"
+					android:layout_margin="5dp"></Button>
+				<Button 
+					android:text="@string/pairing" 
+					android:textColor="@color/color_gold"
+					android:textSize="30dp"
+					android:id="@+id/BtnPairing" 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:background="@drawable/button_state"
+					android:padding="8dp"
+					android:layout_margin="5dp"></Button>
+		</TableRow>
+</TableLayout>
+</RelativeLayout>

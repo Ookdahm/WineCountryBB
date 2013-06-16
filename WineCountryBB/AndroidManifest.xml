@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.androidsfuture.winecountrypa"
+      android:versionName="2.0.2" android:versionCode="8">
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+    <application android:label="@string/app_name" android:icon="@drawable/wine_country_icon">
+    
+        <activity android:name=".Main"
+                  android:label="@string/app_name" android:configChanges="keyboard|keyboardHidden|orientation" android:screenOrientation="landscape" android:theme="@style/no_title_bar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    
+<activity android:theme="@android:style/Theme.InputMethod" android:name=".RegionList"></activity>
+<activity android:name=".PairingList" android:theme="@android:style/Theme.InputMethod"></activity>
+<activity android:name=".RegionSelPhila" android:theme="@style/no_title_bar"></activity>
+
+<activity android:name=".RegionSelPitts" android:theme="@style/no_title_bar"></activity>
+<activity android:theme="@android:style/Theme.InputMethod" android:name=".Wine_Events"></activity>
+<activity android:theme="@android:style/Theme.InputMethod" android:name=".Wine_Amarone"></activity>
+<activity android:name=".Wine_Barbera" android:theme="@android:style/Theme.InputMethod"></activity>
+<activity android:name=".Wine_Barolo" android:theme="@android:style/Theme.InputMethod"></activity>
+
+<activity android:name=".Wine_Beaujolais" android:theme="@android:style/Theme.InputMethod"></activity>
+<activity android:name=".Wine_Bordeaux" android:theme="@android:style/Theme.InputMethod"></activity>
+<activity android:name=".Wine_Cabernet" android:theme="@android:style/Theme.InputMethod"></activity>
+<activity android:name=".Wine_Chablis" android:theme="@android:style/Theme.InputMethod"></activity>
+<activity android:name=".Wine_Champagne" android:theme="@android:style/Theme.InputMethod"></activity>
+<activity android:name=".Wine_Chardonnay" android:theme="@android:style/Theme.InputMethod"></activity>
+<activity android:name=".Wine_Chateauneuf" android:theme="@android:style/Theme.InputMethod"></activity>
+<activity android:name=".Wine_Chianti" android:theme="@android:style/Theme.InputMethod"></activity>
+<activity android:name=".Wine_Gewurz" android:theme="@android:style/Theme.InputMethod"></activity>
+<activity android:name=".Wine_Grenache" android:theme="@android:style/Theme.InputMethod"></activity>
+<activity android:name=".Wine_Grigio" android:theme="@android:style/Theme.InputMethod"></activity>
+<activity android:name=".Wine_Merlot" android:theme="@android:style/Theme.InputMethod"></activity>
+<activity android:name=".Wine_Nebbiolo" android:theme="@android:style/Theme.InputMethod"></activity>
+<activity android:name=".Wine_Noir" android:theme="@android:style/Theme.InputMethod"></activity>
+<activity android:name=".Wine_Port" android:theme="@android:style/Theme.InputMethod"></activity>
+<activity android:name=".Wine_Riesling" android:theme="@android:style/Theme.InputMethod"></activity>
+<activity android:name=".Wine_Rioja" android:theme="@android:style/Theme.InputMethod"></activity>
+<activity android:name=".Wine_Sangi" android:theme="@android:style/Theme.InputMethod"></activity>
+<activity android:name=".Wine_Shiraz" android:theme="@android:style/Theme.InputMethod"></activity>
+<activity android:name=".Wine_Val" android:theme="@android:style/Theme.InputMethod"></activity>
+<activity android:name=".Wine_Brunello" android:theme="@android:style/Theme.InputMethod"></activity><activity android:name=".Wine_Zin" android:theme="@android:style/Theme.InputMethod"></activity>
+
+<activity android:name=".RegionSelErie" android:theme="@style/no_title_bar"></activity>
+<activity android:name=".RegionSelGroundhog" android:theme="@style/no_title_bar"></activity>
+<activity android:name=".RegionSelLower" android:theme="@style/no_title_bar"></activity>
+<activity android:name=".RegionSelUpper" android:theme="@style/no_title_bar"></activity>
+<activity android:name=".Winery_Item" android:theme="@style/no_title_bar"></activity>
+<activity android:name=".RegionSelBerks" android:theme="@style/no_title_bar"></activity>
+<activity android:name=".Maps" android:theme="@style/no_title_bar"></activity>
+<activity android:theme="@style/no_title_bar" android:name=".ListAll" android:screenOrientation="landscape"></activity>
+</application>
+
+
+<uses-sdk android:minSdkVersion="4"></uses-sdk>
+ <!-- Required permission to check licensing. -->
+    
+
+</manifest> 

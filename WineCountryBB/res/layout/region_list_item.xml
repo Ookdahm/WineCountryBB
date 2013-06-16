@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:padding="10dp"
+  android:background="@drawable/edges"
+  android:layoutAnimation="@anim/layout_bottom_to_top_slide_70">
+  
+<TextView 
+	android:text="@+id/TextView01" 
+	android:id="@+id/_id_Region" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:visibility="gone"></TextView>
+<ImageView
+	android:text="@+id/Button01" 
+	android:id="@+id/Grapes" 
+	android:layout_below="@id/_id_Region" 
+	android:layout_width="30dp" 
+	android:layout_height="30dp"
+	android:background="@drawable/grapes"></ImageView>
+<TextView 
+	android:text="Chaddsford Winery" 
+	android:textColor="@color/color_gold"
+	android:textSize="18sp"
+	android:id="@+id/ItemName" 
+	android:layout_toRightOf="@id/Grapes" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:paddingTop="5sp"></TextView>
+<TextView 
+	android:text="1024 Wheatland Drive, Coatesville, PA 19320" 
+	android:textSize="13sp"
+	android:id="@+id/ItemAddress" 
+	android:layout_marginLeft="23dp"
+	android:paddingTop="5dp"
+	android:layout_below="@id/ItemName" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"></TextView>
+
+
+</RelativeLayout>

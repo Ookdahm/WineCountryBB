@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="opaqueDark">#AA000000</color>
+<color name="opaqueLight">#45000000</color>
+<color name="opaqueMedium">#85000000</color>
+<color name="color_white">#FFFFFF</color>
+<color name="color_firebrick">#800517</color>
+<color name="title">#FDD017</color>
+<color name="color_black">#000000</color>
+<color name="color_title">#4CC417</color>
+<color name="color_gold">#D4A017</color>
+<color name="opaqueGreen">#AA283000</color>
+</resources>

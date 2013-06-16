@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="230dp"
+  android:background="@drawable/edges"
+  android:padding="10dp">
+
+<TextView 
+	android:text="@string/select_region" 
+	android:id="@+id/TxtRegionTitle" 
+	android:layout_width="213dp" 
+	android:layout_height="wrap_content"
+	android:textSize="20sp"
+	android:textColor="@color/title"
+	android:paddingBottom="2dp"></TextView>
+<ImageButton 
+	android:id="@+id/DelButtonRegion" 
+	android:layout_toRightOf="@id/TxtRegionTitle" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:background="@drawable/delete"
+	android:clickable="true"
+	android:layout_marginLeft="60dp"
+	android:visibility="gone"></ImageButton>
+
+<ScrollView 
+	android:id="@+id/ScrollView01" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_below="@id/TxtRegionTitle"
+	android:paddingLeft="15dp"
+	android:paddingTop="5dp">
+		<RelativeLayout 
+			android:id="@+id/RelativeLayout01" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content">
+				<TextView 
+					android:text="@string/region_philadelphia" 
+					android:id="@+id/RegionPhila" 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:padding="10dp"
+					android:textSize="17dp"
+					android:clickable="true"></TextView>
+				<TextView 
+					android:text="@string/region_pittsburgh" 
+					android:id="@+id/RegionPitts" 
+					android:layout_below="@id/RegionPhila" 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:padding="10dp"
+					android:textSize="17dp"
+					android:clickable="true"></TextView>
+				<TextView 
+					android:text="@string/region_berks_county" 
+					android:id="@+id/RegionBerks" 
+					android:layout_below="@id/RegionPitts" 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:padding="10dp"
+					android:textSize="17dp"
+					android:clickable="true"></TextView>
+				<TextView 
+					android:text="@string/region_groundhog" 
+					android:id="@+id/RegionGroundhog" 
+					android:layout_below="@id/RegionBerks" 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:padding="10dp"
+					android:textSize="17dp"
+					android:clickable="true"></TextView>
+				<TextView 
+					android:text="@string/region_lake_erie" 
+					android:id="@+id/RegionErie" 
+					android:layout_below="@id/RegionGroundhog" 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:padding="10dp"
+					android:textSize="17dp"
+					android:clickable="true"></TextView>
+				<TextView 
+					android:text="@string/region_lehigh_valley" 
+					android:id="@+id/RegionLehigh" 
+					android:layout_below="@id/RegionErie" 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:padding="10dp"
+					android:textSize="17dp"
+					android:clickable="true"
+					android:visibility="gone"></TextView>
+				<TextView 
+					android:text="@string/region_susquehanna_lower" 
+					android:id="@+id/RegionLower" 
+					android:layout_below="@id/RegionLehigh" 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:padding="10dp"
+					android:textSize="17dp"
+					android:clickable="true"></TextView>
+				<TextView 
+					android:text="@string/region_susquehanna_upper" 
+					android:id="@+id/RegionUpper" 
+					android:layout_below="@id/RegionLower" 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:padding="10dp"
+					android:textSize="17dp"
+					android:clickable="true"></TextView>
+		
+</RelativeLayout>
+</ScrollView>
+
+
+</RelativeLayout>

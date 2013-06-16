@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Main!</string>
+    <string name="app_name">Wine Country</string>
+<string name="wine_country">Wine Country</string>
+<string name="state">Pennsylvania</string>
+<string name="region">Select Region</string>
+<string name="wine_events">Wine Events</string>
+<string name="pairing">Wine Pairing</string>
+<string name="select_region">Select a Region</string>
+
+<string name="select_paring">Select a Wine</string>
+<string name="wine_Amarone">Amarone</string>
+<string name="wine_Barbera">Barbera</string>
+<string name="wine_Barolo">Barolo</string>
+<string name="wine_Beaujolais">Beaujolais</string>
+<string name="wine_Bordeaux">Bordeaux (Red)</string>
+<string name="wine_Brunello">Brunello</string>
+<string name="wine_Cab_Sauvignon">Cabernet Sauvignon</string>
+<string name="wine_Chablis">Chablis</string>
+<string name="wine_Champagne">Champagne</string>
+<string name="wine_Chardonnay">Chardonnay</string>
+<string name="wine_Chateauneuf">Chateauneuf</string>
+<string name="wine_Chianti">Chianti</string>
+<string name="wine_Gewurztraminer">Gewurztraminer</string>
+<string name="wine_Grenache">Grenache / Shiraz / Mourvedre</string>
+<string name="wine_Merlot">Merlot</string>
+<string name="wine_Nebbiolo">Nebbiolo</string>
+<string name="wine_Pinot_Grigio">Pinot Grigio</string>
+<string name="wine_Pinot_Noir">Pinot Noir</string>
+<string name="wine_Port">Port</string>
+<string name="wine_Riesling">Riesling</string>
+<string name="wine_Rioja">Rioja</string>
+<string name="wine_Sangiovese">Sangiovese</string>
+<string name="wine_Shiraz">Shiraz</string>
+<string name="wine_Valpolicella">Valpolicella</string>
+<string name="wine_Zinfandel">Zinfandel</string>
+<string name="region_groundhog">Groundhog Region</string>
+<string name="region_lake_erie">Lake Erie</string>
+<string name="region_lehigh_valley">Lehigh Valley </string>
+<string name="region_berks_county">Berks &amp; Lehigh Counties</string>
+<string name="region_susquehanna_lower">Lower Susquehanna</string>
+<string name="region_philadelphia">Philadelphia Countryside</string>
+<string name="region_pittsburgh">Pittsburgh Countryside</string>
+<string name="region_susquehanna_upper">Upper Susquehanna</string>
+
+<string name="menu_txt_tasting">Tasting Tips</string>
+<string name="menu_txt_friend">Tell A Friend</string>
+<string name="menu_txt_contact">Contact Us</string>
+<string name="menu_txt_apps">More Apps</string>
+<string name="show_map">Show On Map</string>
+<style name="no_title_bar" parent="@android:style/Theme.NoTitleBar"></style>
+<string name="toast_more_options">Hit MENU for more options</string>
+<string name="sat_view">Satellite View</string>
+<string name="map_view">Map View</string>
+<string name="more_options">Hit MENU for more options</string>
+<string name="use_gps">Your location will be more accurate if you turn on GPS</string>
+<string name="list_all">List All By Name</string>
+</resources>
